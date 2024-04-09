@@ -4,14 +4,14 @@
 ## File description:
 ## makefile
 ##
-SRC	=	game_loop.c \
-		my_putchar.c \
-		my_putstr.c \
-		ducky_animation.c \
-		create.c \
-		display.c \
-		event_manager.c	\
-		main.c
+SRC	=	./src/game_loop.c \
+		./lib/my_putchar.c \
+		./lib/my_putstr.c \
+		./src/ducky_animation.c \
+		./src/create.c \
+		./src/display.c \
+		./src/event_manager.c	\
+		./src/main.c
 
 OBJ	=	${SRC:.c=.o}
 
